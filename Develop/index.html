@@ -23,16 +23,141 @@
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+    <header class="jumbotron bg-info bg-opacity-75">
+      <h1 class="text-warning display-3">Work Day Scheduler</h1>
+      <p class="lead text-white">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <div id="today" class="fw-bold text-warning"></div>
     </header>
-    <div class="container">
+
+    <div class="container-fluid" id="sched">
+      
       <!-- Timeblocks go here -->
+      <div class="grid">
+        <div class="col-sm-6 col-md-12 col-lg-12">
+          <div class="row">
+            <div class="input-group">
+              <span class="col-1 justify-content-center input-group-text bg-dark text-light"> 9am </span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+              <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+          </div>
+      </div>
+        <div class="col-sm-6 col-md-12 col-lg-12">
+            <div class="row">
+              <div class="input-group">
+                <span class="col-1 justify-content-center input-group-text bg-dark text-light">10am</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-12">
+          <div class="row">
+            <div class="input-group">
+              <span class="col-1 justify-content-center input-group-text bg-dark text-light">11am</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+              <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-12 col-lg-12">
+        <div class="row">
+          <div class="input-group">
+            <span class="col-1 justify-content-center input-group-text bg-dark text-light">12pm</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-12 col-lg-12">
+      <div class="row">
+        <div class="input-group">
+          <span class="col-1 justify-content-center input-group-text bg-dark text-light">1pm</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        </div>
+      </div>
+  </div>
+  <div class="col-sm-6 col-md-12 col-lg-12">
+    <div class="row">
+      <div class="input-group">
+        <span class="col-1 justify-content-center input-group-text bg-dark text-light">2pm</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+      </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">3pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">4pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">5pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">6pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">7pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">8pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="input-group">
+      <span class="col-1 justify-content-center input-group-text bg-dark text-light">9pm</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button class="col-1 btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+</div>
+
+    </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
