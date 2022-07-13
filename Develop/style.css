@@ -1,7 +1,13 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+
   line-height: 1;
+}
+
+textarea.form-control {
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  font-size: 18px;
+  text-align: center;
 }
 
 textarea{
@@ -18,7 +24,12 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 15px solid black;
+}
+
+.jumbotron h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 90px;
 }
 
 .description{
@@ -63,6 +74,11 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  
+}
+
+.saveBtn:hover {
+  background-color: #77dd77;
 }
 
 .saveBtn i:hover {
