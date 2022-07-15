@@ -19,7 +19,7 @@
 
 ## Screenshot
 
-![alt text](../screencapture-127-0-0-1-5501-Develop-index-html-2022-07-14-22_44_19.png"screenshot")
+![alt text](screencapture-127-0-0-1-5501-Develop-index-html-2022-07-14-22_44_19.png"screenshot")
 
 ## Deployed URL
 https://brian-nelson10.github.io/Work-Day-Scheduler/
