@@ -1,28 +1,26 @@
-// create buttons
-// add modal
-// add modal forms
-// create time slots
-// have data or values go into time slot card
-// make time slots editable when you click on time card
-// make shit stay when refreshed and into local storage
-// make it look cool with bootstrap and font
-// maybe add icons to time slot for past due present future and icons for time?
-// add colors to times that are past present future
-// figure out timer so everything is live
-
-//const colorCode = document.getElementsByClassName(".colorCode");
-
-
-
+// date
 var today = moment().format("dddd, MMMM Do YYYY"); 
 console.log(today);
 document.getElementById("today").innerHTML= today;
 
-
+// hour
 var currentHour = moment().hours();
 console.log(currentHour);
 
 
+// saveBtn 
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        var comment = $(this).siblings(".comment").val();
+        var key = $(this).parent().attr("id");
+
+        // save comment in local
+        localStorage.setItem(key, comment);
+    })
+});
+
+
+// change colors based on hour
 $('.colorCode')
   .each(function(){
     
@@ -42,8 +40,20 @@ $('.colorCode')
     }
   });
 
-
-
-
+  // get localStorage 
+    $("#9 .comment").val(localStorage.getItem("9"));
+    $("#10 .comment").val(localStorage.getItem("10"));
+    $("#11 .comment").val(localStorage.getItem("11"));
+    $("#12 .comment").val(localStorage.getItem("12"));
+    $("#13 .comment").val(localStorage.getItem("13"));
+    $("#14 .comment").val(localStorage.getItem("14"));
+    $("#15 .comment").val(localStorage.getItem("15"));
+    $("#16 .comment").val(localStorage.getItem("16"));
+    $("#17 .comment").val(localStorage.getItem("17"));
+    $("#18 .comment").val(localStorage.getItem("18"));
+    $("#19 .comment").val(localStorage.getItem("19"));
+    $("#20 .comment").val(localStorage.getItem("20"));
+    $("#21 .comment").val(localStorage.getItem("21"));
+  
 
 
