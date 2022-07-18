@@ -41,19 +41,19 @@ $('.colorCode')
   });
 
   // get localStorage 
-    $("#9 .comment").val(localStorage.getItem("9"));
-    $("#10 .comment").val(localStorage.getItem("10"));
-    $("#11 .comment").val(localStorage.getItem("11"));
-    $("#12 .comment").val(localStorage.getItem("12"));
-    $("#13 .comment").val(localStorage.getItem("13"));
-    $("#14 .comment").val(localStorage.getItem("14"));
-    $("#15 .comment").val(localStorage.getItem("15"));
-    $("#16 .comment").val(localStorage.getItem("16"));
-    $("#17 .comment").val(localStorage.getItem("17"));
-    $("#18 .comment").val(localStorage.getItem("18"));
-    $("#19 .comment").val(localStorage.getItem("19"));
-    $("#20 .comment").val(localStorage.getItem("20"));
-    $("#21 .comment").val(localStorage.getItem("21"));
+    $("#9a .comment").val(localStorage.getItem("9"));
+    $("#10a .comment").val(localStorage.getItem("10"));
+    $("#11a .comment").val(localStorage.getItem("11"));
+    $("#12a .comment").val(localStorage.getItem("12"));
+    $("#13a .comment").val(localStorage.getItem("13"));
+    $("#14a .comment").val(localStorage.getItem("14"));
+    $("#15a .comment").val(localStorage.getItem("15"));
+    $("#16a .comment").val(localStorage.getItem("16"));
+    $("#17a .comment").val(localStorage.getItem("17"));
+    $("#18a .comment").val(localStorage.getItem("18"));
+    $("#19a .comment").val(localStorage.getItem("19"));
+    $("#20a .comment").val(localStorage.getItem("20"));
+    $("#21a .comment").val(localStorage.getItem("21"));
   
 
 
